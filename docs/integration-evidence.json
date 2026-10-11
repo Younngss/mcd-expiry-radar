@@ -1,0 +1,45 @@
+{
+  "observed_at": "2026-10-10T21:25:09.120000+08:00",
+  "server": "https://mcp.mcd.cn",
+  "transport": "Streamable HTTP",
+  "protocol": "2024-11-05",
+  "tools_discovered": 35,
+  "calls": [
+    {
+      "tool": "now-time-info",
+      "status": "ok",
+      "arguments": {}
+    },
+    {
+      "tool": "query-my-coupons",
+      "status": "ok",
+      "arguments": {
+        "page": "1",
+        "pageSize": "200"
+      }
+    },
+    {
+      "tool": "query-my-account",
+      "status": "ok",
+      "arguments": {}
+    },
+    {
+      "tool": "campaign-calendar",
+      "status": "ok",
+      "arguments": {}
+    },
+    {
+      "tool": "available-coupons",
+      "status": "ok",
+      "arguments": {}
+    },
+    {
+      "tool": "mall-points-products",
+      "status": "ok",
+      "arguments": {
+        "catRuleIds": "1>4"
+      }
+    }
+  ],
+  "note": "仅记录工具名、非敏感参数和成功状态，不含账户数据或凭据。"
+}
