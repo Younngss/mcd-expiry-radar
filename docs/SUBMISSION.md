@@ -4,6 +4,10 @@
 
 发布账号：**Younngss**。个人公开仓库：[mcd-expiry-radar](https://github.com/Younngss/mcd-expiry-radar)。
 
+报名申请：[官方 Issue #415](https://github.com/M-China/mcd-developer-innovation-challenge/issues/415)，2026-10-11 提交，目前等待官方成功回复，尚未确认报名成功。
+
+在线演示：[打开模拟数据演示](https://younngss.github.io/mcd-expiry-radar/demo.html)。公开版本已下载核对，29 项测试及 GitHub 自动检查通过；官方声明与原文一致，公开文件未包含本地密钥。
+
 ## 报名标题
 
 麦麦到期雷达｜用好已有权益的优惠券与积分提醒 Skill
