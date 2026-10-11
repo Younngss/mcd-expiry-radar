@@ -1,0 +1,4 @@
+interface:
+  display_name: "麦麦到期雷达"
+  short_description: "整理麦当劳优惠券、到期积分与近期活动，生成清单和日历提醒"
+  default_prompt: "使用 $mcd-expiry-radar 查看我这周有哪些已有权益值得先核对，并生成按需使用的行动清单。"
