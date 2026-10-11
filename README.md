@@ -14,6 +14,8 @@
 
 ## 立即体验
 
+[打开在线交互演示](https://younngss.github.io/mcd-expiry-radar/demo.html) · 使用模拟数据，无需登录或提供密钥。
+
 需要 Python 3.11+，不需要安装第三方依赖。下载项目后，在项目目录运行：
 
 ```sh
