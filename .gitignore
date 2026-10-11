@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.private/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+dist/
+*.egg-info/
