@@ -1,0 +1,28 @@
+{
+  "now-time-info": {"data": {"datetime": "2026-10-10T10:00:00+08:00"}},
+  "query-my-coupons": {"code": 200, "data": {"coupons": [
+    {"id": "demo-c1", "title": "早餐组合优惠券 · 演示", "subtitle": "已有权益 · 有早餐计划再使用", "tradeStartDate": "2026-10-01", "tradeEndDate": "2026-10-10", "enable": 1, "datetimeText": "演示条件：早餐时段适用，门店与渠道需核验", "tags": [{"label": "到店专用"}], "discountInfo": {"discountDesc": "演示用券价格", "discountValue": "12.9", "discountTypeText": "¥"}},
+    {"id": "demo-c2", "title": "双人分享餐优惠券 · 演示", "subtitle": "已有权益 · 和朋友约饭时再考虑", "tradeStartDate": "2026-10-01", "tradeEndDate": "2026-10-12", "enable": 1, "datetimeText": "演示条件：不可叠加其他优惠；具体餐厅适用性需核验", "tags": [{"label": "已有券"}], "discountInfo": {"discountDesc": "演示用券价格", "discountValue": "39.9", "discountTypeText": "¥"}},
+    {"id": "demo-c3", "title": "午餐组合优惠券 · 演示", "subtitle": "已有权益 · 本周午餐备选", "tradeStartDate": "2026-10-01", "tradeEndDate": "2026-10-15", "enable": 1, "datetimeText": "演示条件：午餐时段可用，详情以官方券面为准", "tags": [{"label": "到店专用"}]},
+    {"id": "demo-c4", "title": "咖啡优惠券 · 演示", "subtitle": "已有权益 · 想喝咖啡时再用", "tradeStartDate": "2026-10-01", "tradeEndDate": "2026-10-30", "enable": 1, "datetimeText": "演示条件：指定饮品适用，具体门店需核验", "tags": [{"label": "饮品"}]},
+    {"id": "demo-c5", "title": "下周生效权益 · 演示", "subtitle": "尚未生效 · 先了解条件", "tradeStartDate": "2026-10-18", "tradeEndDate": "2026-10-25", "enable": 0, "datetimeText": "演示条件：10月18日起生效", "tags": [{"label": "待生效"}]},
+    {"id": "demo-c6", "title": "已过期权益 · 演示", "subtitle": "历史状态 · 不再推荐使用", "tradeStartDate": "2026-10-01", "tradeEndDate": "2026-10-09", "enable": 0, "datetimeText": "演示条件：已超过截止日期", "tags": [{"label": "历史券"}]}
+  ], "totalPages": 1, "totalCount": 6, "currentPage": 1, "pageSize": 200}},
+  "query-my-account": {"code": 200, "data": {"availablePoint": "1280", "currentMouthExpirePoint": "300", "nextMouthExpirePoint": "120"}},
+  "campaign-calendar": {"code": 200, "data": {"dailyList": [
+    {"date": "2026-10-10", "events": [{"activityTitle": "周末欢聚日 · 演示活动", "activitySubTitle": "与朋友一起享受周末时光"}]},
+    {"date": "2026-10-12", "events": [{"activityTitle": "早餐新灵感 · 演示活动", "activitySubTitle": "为忙碌早晨留一份从容"}]},
+    {"date": "2026-10-14", "events": [{"activityTitle": "咖啡时光 · 演示活动", "activitySubTitle": "有空再安排自己的休息时间"}]},
+    {"date": "2026-10-17", "events": [{"activityTitle": "周末家庭活动 · 演示活动", "activitySubTitle": "参与地区、日期和条件需核验"}]}
+  ]}},
+  "available-coupons": {"code": 200, "data": [
+    {"couponName": "工作日午餐优惠 · 演示", "couponStatus": "CAN_GET", "label": "可领取"},
+    {"couponName": "下午茶小食优惠 · 演示", "couponStatus": "CAN_GET", "label": "可领取"},
+    {"couponName": "家庭分享优惠 · 演示", "couponStatus": "CAN_GET", "label": "可领取"}
+  ]},
+  "mall-points-products": {"code": 200, "data": [
+    {"spuName": "小食兑换券 · 演示", "status": 2, "point": "300", "price": "0", "catName": "到店专用", "upTime": "2026-10-01", "downTime": "2026-10-31"},
+    {"spuName": "饮品兑换券 · 演示", "status": 2, "point": "500", "price": "0", "catName": "饮品", "upTime": "2026-10-01", "downTime": "2026-11-30"},
+    {"spuName": "旧兑换活动 · 演示异常", "status": 2, "point": "1", "price": "0", "upTime": "2026-01-01", "downTime": "2026-01-31"}
+  ]}
+}
