@@ -1,0 +1,318 @@
+{
+  "mode": "demo",
+  "observed_at": "2026-10-10T10:00:00+08:00",
+  "timezone": "UTC+08:00",
+  "clock_source": "now-time-info",
+  "horizon": 7,
+  "sources": [
+    {
+      "tool": "now-time-info",
+      "status": "ok",
+      "message": "已读取"
+    },
+    {
+      "tool": "query-my-coupons",
+      "status": "ok",
+      "message": "已读取"
+    },
+    {
+      "tool": "query-my-account",
+      "status": "ok",
+      "message": "已读取"
+    },
+    {
+      "tool": "campaign-calendar",
+      "status": "ok",
+      "message": "已读取"
+    },
+    {
+      "tool": "available-coupons",
+      "status": "ok",
+      "message": "已读取"
+    },
+    {
+      "tool": "mall-points-products",
+      "status": "ok",
+      "message": "已读取"
+    }
+  ],
+  "coupon_complete": true,
+  "items": [
+    {
+      "id": "d040ad71774d1cb43a2d",
+      "kind": "coupon",
+      "title": "早餐组合优惠券 · 演示",
+      "subtitle": "已有权益 · 有早餐计划再使用",
+      "state": "today",
+      "priority": 0,
+      "badge": "今天到期",
+      "date": "2026-10-10",
+      "start": "2026-10-01",
+      "end": "2026-10-10",
+      "terms": "演示条件：早餐时段适用，门店与渠道需核验",
+      "price": "演示用券价格 ¥12.9",
+      "tags": [
+        "到店专用"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": true
+    },
+    {
+      "id": "5867c4a0d34e62d6e165",
+      "kind": "coupon",
+      "title": "双人分享餐优惠券 · 演示",
+      "subtitle": "已有权益 · 和朋友约饭时再考虑",
+      "state": "urgent",
+      "priority": 1,
+      "badge": "2 天后到期",
+      "date": "2026-10-12",
+      "start": "2026-10-01",
+      "end": "2026-10-12",
+      "terms": "演示条件：不可叠加其他优惠；具体餐厅适用性需核验",
+      "price": "演示用券价格 ¥39.9",
+      "tags": [
+        "已有券"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": true
+    },
+    {
+      "id": "68df864f85864295e032",
+      "kind": "coupon",
+      "title": "午餐组合优惠券 · 演示",
+      "subtitle": "已有权益 · 本周午餐备选",
+      "state": "week",
+      "priority": 2,
+      "badge": "5 天后到期",
+      "date": "2026-10-15",
+      "start": "2026-10-01",
+      "end": "2026-10-15",
+      "terms": "演示条件：午餐时段可用，详情以官方券面为准",
+      "price": "",
+      "tags": [
+        "到店专用"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": true
+    },
+    {
+      "id": "9022e8ae1b7053d4f65e",
+      "kind": "points",
+      "title": "核对本月到期的 300 积分",
+      "subtitle": "先看是否有合适的兑换需求",
+      "state": "active",
+      "priority": 2,
+      "badge": "本月到期汇总",
+      "date": "2026-10-28",
+      "start": "",
+      "end": "本月（精确失效时间未提供）",
+      "terms": "接口仅提供月度汇总；日历日期是主动核对日，不是精确失效日。",
+      "price": "",
+      "tags": [
+        "积分"
+      ],
+      "source": "query-my-account",
+      "action": "查看积分商城，核验兑换积分、现金和后续核销成本后再决定。",
+      "caution": "不把积分换算成人民币，不自动兑换，不为消耗积分额外消费。",
+      "calendar": true
+    },
+    {
+      "id": "a3d38184db78b0aea168",
+      "kind": "coupon",
+      "title": "下周生效权益 · 演示",
+      "subtitle": "尚未生效 · 先了解条件",
+      "state": "upcoming",
+      "priority": 3,
+      "badge": "尚未生效",
+      "date": "2026-10-25",
+      "start": "2026-10-18",
+      "end": "2026-10-25",
+      "terms": "演示条件：10月18日起生效",
+      "price": "",
+      "tags": [
+        "待生效"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": true
+    },
+    {
+      "id": "1496c9dc05fe63f255ac",
+      "kind": "coupon",
+      "title": "咖啡优惠券 · 演示",
+      "subtitle": "已有权益 · 想喝咖啡时再用",
+      "state": "active",
+      "priority": 3,
+      "badge": "20 天后到期",
+      "date": "2026-10-30",
+      "start": "2026-10-01",
+      "end": "2026-10-30",
+      "terms": "演示条件：指定饮品适用，具体门店需核验",
+      "price": "",
+      "tags": [
+        "饮品"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": true
+    },
+    {
+      "id": "e16625a87f439c3e39dc",
+      "kind": "campaign",
+      "title": "周末欢聚日 · 演示活动",
+      "subtitle": "与朋友一起享受周末时光",
+      "state": "active",
+      "priority": 5,
+      "badge": "今天活动",
+      "date": "2026-10-10",
+      "start": "2026-10-10",
+      "end": "",
+      "terms": "日期仅代表活动日历展示日，参与条件需核验。",
+      "price": "",
+      "tags": [
+        "活动"
+      ],
+      "source": "campaign-calendar",
+      "action": "有兴趣再查看官方活动详情，确认地区、时间和参与条件。",
+      "caution": "活动信息不等于已报名、已预约或已领券。",
+      "calendar": true
+    },
+    {
+      "id": "304e896593a5a6255a05",
+      "kind": "campaign",
+      "title": "早餐新灵感 · 演示活动",
+      "subtitle": "为忙碌早晨留一份从容",
+      "state": "upcoming",
+      "priority": 5,
+      "badge": "近期活动",
+      "date": "2026-10-12",
+      "start": "2026-10-12",
+      "end": "",
+      "terms": "日期仅代表活动日历展示日，参与条件需核验。",
+      "price": "",
+      "tags": [
+        "活动"
+      ],
+      "source": "campaign-calendar",
+      "action": "有兴趣再查看官方活动详情，确认地区、时间和参与条件。",
+      "caution": "活动信息不等于已报名、已预约或已领券。",
+      "calendar": true
+    },
+    {
+      "id": "9023956394f2146f4bb7",
+      "kind": "campaign",
+      "title": "咖啡时光 · 演示活动",
+      "subtitle": "有空再安排自己的休息时间",
+      "state": "upcoming",
+      "priority": 5,
+      "badge": "近期活动",
+      "date": "2026-10-14",
+      "start": "2026-10-14",
+      "end": "",
+      "terms": "日期仅代表活动日历展示日，参与条件需核验。",
+      "price": "",
+      "tags": [
+        "活动"
+      ],
+      "source": "campaign-calendar",
+      "action": "有兴趣再查看官方活动详情，确认地区、时间和参与条件。",
+      "caution": "活动信息不等于已报名、已预约或已领券。",
+      "calendar": true
+    },
+    {
+      "id": "d64444bd84619162900b",
+      "kind": "campaign",
+      "title": "周末家庭活动 · 演示活动",
+      "subtitle": "参与地区、日期和条件需核验",
+      "state": "upcoming",
+      "priority": 5,
+      "badge": "近期活动",
+      "date": "2026-10-17",
+      "start": "2026-10-17",
+      "end": "",
+      "terms": "日期仅代表活动日历展示日，参与条件需核验。",
+      "price": "",
+      "tags": [
+        "活动"
+      ],
+      "source": "campaign-calendar",
+      "action": "有兴趣再查看官方活动详情，确认地区、时间和参与条件。",
+      "caution": "活动信息不等于已报名、已预约或已领券。",
+      "calendar": true
+    },
+    {
+      "id": "7a41a1181453bbea3310",
+      "kind": "coupon",
+      "title": "已过期权益 · 演示",
+      "subtitle": "历史状态 · 不再推荐使用",
+      "state": "expired",
+      "priority": 9,
+      "badge": "已过期",
+      "date": "2026-10-09",
+      "start": "2026-10-01",
+      "end": "2026-10-09",
+      "terms": "演示条件：已超过截止日期",
+      "price": "",
+      "tags": [
+        "历史券"
+      ],
+      "source": "query-my-coupons",
+      "action": "若本来就计划用餐，先核验门店、渠道与可用时段，再考虑使用。",
+      "caution": "持有不代表当前门店或订单可用；官方用券价格不等于节省金额。",
+      "calendar": false
+    }
+  ],
+  "points": {
+    "available": 1280.0,
+    "this_month": 300.0,
+    "next_month": 120.0
+  },
+  "claimable": [
+    {
+      "title": "工作日午餐优惠 · 演示",
+      "label": "可领取"
+    },
+    {
+      "title": "下午茶小食优惠 · 演示",
+      "label": "可领取"
+    },
+    {
+      "title": "家庭分享优惠 · 演示",
+      "label": "可领取"
+    }
+  ],
+  "products": [
+    {
+      "title": "小食兑换券 · 演示",
+      "points": 300.0,
+      "cash": "0",
+      "category": "到店专用",
+      "end": "2026-10-31",
+      "note": "列表价格仅供参考；SKU、库存及券核销额外金额需查官方详情。"
+    },
+    {
+      "title": "饮品兑换券 · 演示",
+      "points": 500.0,
+      "cash": "0",
+      "category": "饮品",
+      "end": "2026-11-30",
+      "note": "列表价格仅供参考；SKU、库存及券核销额外金额需查官方详情。"
+    }
+  ],
+  "anomalies": [
+    "商城有 1 条标记上架但已超过兑换截止时间，已过滤。"
+  ],
+  "counts": {
+    "coupons": 6,
+    "urgent": 3,
+    "campaigns": 4
+  }
+}
