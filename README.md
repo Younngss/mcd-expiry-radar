@@ -4,7 +4,7 @@
 
 2026 麦当劳程序员创意开发大赛参赛项目。独立开发，非麦当劳官方产品。
 
-![麦麦到期雷达模拟演示截图](docs/preview.jpg)
+![麦麦到期雷达模拟演示截图](https://github.com/user-attachments/assets/59b63a53-9f78-4276-96d5-5f371ca2206d)
 
 ## 解决什么问题
 
